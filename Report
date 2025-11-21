@@ -1,0 +1,27 @@
+ECEN 4008: Embedded AI Final Project Report 
+AI-Generated Image Detection Using CNN Classification
+Team Members: Matteo Coscia, Katie Fleming, Sara Wissner, and Mel Strand
+
+1. Project Goals 
+Our project aimed to design and train a machine learning model capable of ditinguising between AI-generated images with real images, with explianable features to help users understand why the classifier made its prediction.
+To achive this, we planned to:
+- Identify and preproces a large dataset of real vs. AI-generated images 
+- Implement a convolutional nueral network (CNN) 
+- Train and evaluate the model in Google Colab or VS code 
+- Build a reproducible pipeline and uplad all assets to a structured GitHUB repository 
+- Generate visual explanations (e.g., Grad-CAM heatmaps) to highlight model reasoning 
+- Identify areas we can improve the model for higher accuracy or efficiency
+- Provide a small model demo / inference script 
+
+2. What We Produced 
+
+3. Final Model 
+
+Key Takeaways & Learnings 
+- Dataset quality matters more than architechture. Balanced real vs. fake images significantly improved performance.
+- Transfer learning outperformed custom CNNs given limited compute time.
+- Explainability tools are essential - Grad-CAM highlighted that real-image noise patterns differn from AI smoothing artifacts. 
+- Preprocessing consistency (image size, normalization, augmentations) had a major effect on training stability.
+- Running large experiments on Colab requires planning to avoid GPU resets and environmental consistencies.
+- Version control and modular code structure made it easier to collaborate and track improvments.
+
